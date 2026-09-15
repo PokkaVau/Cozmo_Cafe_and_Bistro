@@ -1,0 +1,623 @@
+[
+  {
+    "id": 1,
+    "name": "Teriyaki Spring Roll",
+    "category": "Appetizer",
+    "price": "360 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Vietnamese Prawn Roll",
+    "category": "Appetizer",
+    "price": "440 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Garlic Mushroom Wings",
+    "category": "Appetizer",
+    "price": "450 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Vegetable Tempura",
+    "category": "Appetizer",
+    "price": "350 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Prawn Tempura",
+    "category": "Appetizer",
+    "price": "690 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Peri-Peri Chicken Bites",
+    "category": "Appetizer",
+    "price": "560 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Mariscos Squid Pillow",
+    "category": "Appetizer",
+    "price": "590 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Chicken Lollipop",
+    "category": "Appetizer",
+    "price": "430 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Dynamite Shrimps",
+    "category": "Appetizer",
+    "price": "690 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Butter Garlic Mushroom",
+    "category": "Appetizer",
+    "price": "430 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Chicken Empanadas (3Pcs)",
+    "category": "Appetizer",
+    "price": "480 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Beef Empanadas (2Pcs)",
+    "category": "Appetizer",
+    "price": "470 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "Fried Calamari",
+    "category": "Appetizer",
+    "price": "490 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "Tex Mex Fries",
+    "category": "Appetizer",
+    "price": "380 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "Seafood Chowder",
+    "category": "Soup",
+    "price": "650 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "name": "Cream of Mushroom Soup",
+    "category": "Soup",
+    "price": "440 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 17,
+    "name": "Cream of Chicken Soup",
+    "category": "Soup",
+    "price": "440 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "Hot & Sour Thik Soup",
+    "category": "Soup",
+    "price": "420 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "Clear Ocean Soup",
+    "category": "Soup",
+    "price": "580 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "Dumpling Coconut Soup",
+    "category": "Soup",
+    "price": "520 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 21,
+    "name": "Clear Vegetable Soup",
+    "category": "Soup",
+    "price": "320 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "name": "Fish Chorizo",
+    "category": "Tapas",
+    "price": "580 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "name": "Tuna on Toast",
+    "category": "Tapas",
+    "price": "570 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "Lubina En Pan",
+    "category": "Tapas",
+    "price": "540 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "Mushroom on Pan",
+    "category": "Tapas",
+    "price": "480 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "name": "Tex Max Chicken Tacos",
+    "category": "Cozmo Fusion Tacos",
+    "price": "440 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "Ground Beef Tacos",
+    "category": "Cozmo Fusion Tacos",
+    "price": "550 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 28,
+    "name": "BBQ Chicken Salad",
+    "category": "Salad",
+    "price": "690 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "Ocean Salad",
+    "category": "Salad",
+    "price": "690 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "name": "Beef Meat Ball Salad",
+    "category": "Salad",
+    "price": "690 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "name": "Chicken Caesar Salad",
+    "category": "Salad",
+    "price": "690 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "name": "Cashew nut Chicken Salad",
+    "category": "Salad",
+    "price": "590 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 33,
+    "name": "Dumpling salad",
+    "category": "Salad",
+    "price": "520 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 34,
+    "name": "Ciabatta Roasted Beef Sandwich",
+    "category": "Sandwich",
+    "price": "650 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "name": "Tuna Melt On Ciabatta",
+    "category": "Sandwich",
+    "price": "680 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 36,
+    "name": "Club Sandwich",
+    "category": "Sandwich",
+    "price": "650 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "name": "French Toast sandwich",
+    "category": "Sandwich",
+    "price": "490 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 38,
+    "name": "Peri Peri Beef Gyoza",
+    "category": "Momo",
+    "price": "450 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 39,
+    "name": "Peri Peri Chicken Momo",
+    "category": "Momo",
+    "price": "330 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 40,
+    "name": "Shrimp Har Gow",
+    "category": "Momo",
+    "price": "420 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 41,
+    "name": "Sichuan Ocean Momo",
+    "category": "Momo",
+    "price": "420 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 42,
+    "name": "Chicken Cheese Dumpling",
+    "category": "Momo",
+    "price": "420 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 43,
+    "name": "Chicken Gyoza",
+    "category": "Momo",
+    "price": "390 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 44,
+    "name": "Tandoori Chicken Gyoza",
+    "category": "Momo",
+    "price": "420 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 45,
+    "name": "Tom Yum Momo",
+    "category": "Momo",
+    "price": "460 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 46,
+    "name": "Chicken Fried Momo",
+    "category": "Momo",
+    "price": "360 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 47,
+    "name": "Gaiko Beef Burger",
+    "category": "Burger",
+    "price": "850 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 48,
+    "name": "Chicken Steak Burger",
+    "category": "Burger",
+    "price": "640 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 49,
+    "name": "Crispy Chicken Burger",
+    "category": "Burger",
+    "price": "540 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 50,
+    "name": "Beef Burrito",
+    "category": "Wrap",
+    "price": "490 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 51,
+    "name": "BBQ Chicken Wrap",
+    "category": "Wrap",
+    "price": "450 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 52,
+    "name": "Chicken Pide",
+    "category": "Pide",
+    "price": "890 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 53,
+    "name": "Turkish Beef Pide",
+    "category": "Pide",
+    "price": "950 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 54,
+    "name": "Kofta Pide",
+    "category": "Pide",
+    "price": "950 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 55,
+    "name": "Seafood Pide",
+    "category": "Pide",
+    "price": "920 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 56,
+    "name": "Chicken Nanban",
+    "category": "Mains",
+    "price": "550 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 57,
+    "name": "Fish & Chips",
+    "category": "Mains",
+    "price": "730 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 58,
+    "name": "Spaghetti Aglio E Olio",
+    "category": "Pasta",
+    "price": "570 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 59,
+    "name": "Gambas Penne Arrabita",
+    "category": "Pasta",
+    "price": "780 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 60,
+    "name": "Spaghetti Chicken with Pesto",
+    "category": "Pasta",
+    "price": "750 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 61,
+    "name": "Fettuccine Alfredo",
+    "category": "Pasta",
+    "price": "780 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 62,
+    "name": "Spaghetti Bolognese",
+    "category": "Pasta",
+    "price": "790 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 63,
+    "name": "Spaghetti With Jambo Prawn",
+    "category": "Pasta",
+    "price": "780 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80",
+    "badge": "Popular",
+    "inStock": true
+  },
+  {
+    "id": 64,
+    "name": "Mac & Cheese",
+    "category": "Pasta",
+    "price": "680 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3d5d6281691?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 65,
+    "name": "Margherita Pizza",
+    "category": "Pizza",
+    "price": "690 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 66,
+    "name": "BBQ Chiken Pizza",
+    "category": "Pizza",
+    "price": "920 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 67,
+    "name": "Beef Bolognese",
+    "category": "Pizza",
+    "price": "990 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  },
+  {
+    "id": 68,
+    "name": "Cozmo Meat Lover's Pizza",
+    "category": "Pizza",
+    "price": "1080 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=600&q=80",
+    "badge": "Chef Special",
+    "inStock": true
+  },
+  {
+    "id": 69,
+    "name": "Pizza De Mariscos (Sea Food)",
+    "category": "Pizza",
+    "price": "1040 Tk",
+    "imageUrl": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=600&q=80",
+    "badge": null,
+    "inStock": true
+  }
+]
