@@ -170,23 +170,42 @@ function setupReservation() {
     e.preventDefault();
     const name = document.getElementById('res-name').value.trim();
     const phone = document.getElementById('res-phone').value.trim();
-    const date = document.getElementById('res-date').value;
-    const time = document.getElementById('res-time').value;
-    const guests = document.getElementById('res-guests').value;
+    const dateVal = document.getElementById('res-date').value;
+    const timeVal = document.getElementById('res-time').value;
+    const guestSelect = document.getElementById('res-guests');
+    const guests = guestSelect ? (guestSelect.options[guestSelect.selectedIndex]?.text || guestSelect.value) : '';
     const notes = document.getElementById('res-notes').value.trim();
 
-    const msg = 
-`🍽️ *Reservation Request - Cozmo Cafe & Bistro*
-*Location:* Rupayan Shopping Square (2nd Floor), Basundhara R/A
-*Guest Name:* ${name}
-*Phone:* ${phone}
-*Date:* ${date}
-*Time:* ${time}
-*Party Size:* ${guests}
-${notes ? `*Special Request:* ${notes}` : ''}`;
+    let formattedDate = dateVal;
+    if (dateVal) {
+      const d = new Date(`${dateVal}T00:00:00`);
+      if (!isNaN(d)) formattedDate = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+    }
 
-    const waUrl = `https://wa.me/${CAFE_PHONE}?text=${encodeURIComponent(msg)}`;
-    window.open(waUrl, '_blank');
+    let formattedTime = timeVal;
+    if (timeVal) {
+      const t = new Date(`1970-01-01T${timeVal}`);
+      if (!isNaN(t)) formattedTime = t.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+    }
+
+    const lines = [
+      '👋 Hello Cozmo Cafe & Bistro, I would like to reserve a table/seat.',
+      '',
+      '📋 *Reservation Details:*',
+      `• *Name:* ${name}`,
+      `• *Phone:* ${phone}`,
+      `• *Date:* ${formattedDate}`,
+      `• *Time:* ${formattedTime}`,
+      `• *Party Size:* ${guests}`,
+    ];
+    if (notes) {
+      lines.push(`• *Special Notes:* ${notes}`);
+    }
+    lines.push('', 'Please confirm table availability. Thank you!');
+
+    const msg = lines.join('\n');
+    const waUrl = `https://api.whatsapp.com/send?phone=${CAFE_PHONE}&text=${encodeURIComponent(msg)}`;
+    window.open(waUrl, '_blank') || (window.location.href = waUrl);
   });
 }
 
