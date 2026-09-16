@@ -2,10 +2,12 @@
 // ponytail: Dynamic categories directly from dataset + instant search + zero-backend WhatsApp booking
 const DATA_SOURCE = 'menu.json';
 const CAFE_PHONE = '8801819339966';
+const PAGE_SIZE = 8;
 
 let allMenuItems = [];
 let activeCategory = 'all';
 let searchQuery = '';
+let visibleCount = PAGE_SIZE;
 
 async function loadMenu() {
   const container = document.getElementById('menu-container');
@@ -37,6 +39,7 @@ function renderCategories() {
       filterWrap.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       activeCategory = btn.dataset.category;
+      visibleCount = PAGE_SIZE;
       renderMenu();
     });
   });
@@ -44,6 +47,7 @@ function renderCategories() {
 
 function renderMenu() {
   const container = document.getElementById('menu-container');
+  const actionsContainer = document.getElementById('menu-actions');
   let filtered = allMenuItems;
 
   if (activeCategory !== 'all') {
@@ -65,11 +69,13 @@ function renderMenu() {
         <p class="menu-loading">No delicacies match "${searchQuery || activeCategory}".</p>
         <button id="reset-filter-btn" class="btn btn-outline" style="margin-top: 14px;">Reset All Filters</button>
       </div>`;
+    if (actionsContainer) actionsContainer.innerHTML = '';
     const resetBtn = document.getElementById('reset-filter-btn');
     if (resetBtn) {
       resetBtn.onclick = () => {
         searchQuery = '';
         activeCategory = 'all';
+        visibleCount = PAGE_SIZE;
         const searchInput = document.getElementById('menu-search');
         if (searchInput) searchInput.value = '';
         renderCategories();
@@ -79,7 +85,9 @@ function renderMenu() {
     return;
   }
 
-  container.innerHTML = filtered.map(item => `
+  const visibleItems = filtered.slice(0, visibleCount);
+
+  container.innerHTML = visibleItems.map(item => `
     <article class="menu-card" data-category="${item.category}">
       <div class="card-img-wrap">
         <img src="${item.imageUrl}" alt="${item.name}" loading="lazy" onerror="this.onerror=null;this.src='cozmo_resources/cozmo_cover.jpg'">
@@ -94,6 +102,47 @@ function renderMenu() {
       </div>
     </article>
   `).join('');
+
+  renderMenuActions(filtered.length);
+}
+
+function renderMenuActions(totalCount) {
+  const actionsContainer = document.getElementById('menu-actions');
+  if (!actionsContainer) return;
+
+  if (totalCount <= PAGE_SIZE) {
+    actionsContainer.innerHTML = '';
+    return;
+  }
+
+  if (visibleCount < totalCount) {
+    const remaining = totalCount - visibleCount;
+    const nextBatch = Math.min(PAGE_SIZE, remaining);
+    actionsContainer.innerHTML = `
+      <button id="load-more-btn" class="btn btn-primary">Load More (+${nextBatch})</button>
+      <button id="show-all-btn" class="btn btn-outline">View All (${totalCount})</button>
+    `;
+    document.getElementById('load-more-btn').addEventListener('click', () => {
+      visibleCount += PAGE_SIZE;
+      renderMenu();
+    });
+    document.getElementById('show-all-btn').addEventListener('click', () => {
+      visibleCount = totalCount;
+      renderMenu();
+    });
+  } else {
+    actionsContainer.innerHTML = `
+      <button id="show-less-btn" class="btn btn-outline">Show Less ↑</button>
+    `;
+    document.getElementById('show-less-btn').addEventListener('click', () => {
+      visibleCount = PAGE_SIZE;
+      renderMenu();
+      const menuSection = document.getElementById('menu');
+      if (menuSection) {
+        menuSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  }
 }
 
 function setupSearch() {
@@ -101,6 +150,7 @@ function setupSearch() {
   if (!searchInput) return;
   searchInput.addEventListener('input', (e) => {
     searchQuery = e.target.value.trim();
+    visibleCount = PAGE_SIZE;
     renderMenu();
   });
 }
