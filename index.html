@@ -13,6 +13,9 @@
 </head>
 <body>
 
+  <!-- Accessible Skip Link -->
+  <a href="#menu" class="skip-link">Skip to main content</a>
+
   <!-- Top Announcement Bar -->
   <div id="promo-banner" class="promo-banner">
     <div class="container banner-content">
@@ -69,7 +72,7 @@
     <div class="container about-grid">
       <div class="about-text">
         <span class="section-tag">Our Story</span>
-        <h2>European Charm In The Heart of Basundhara</h2>
+        <h2>European Charm in the Heart of Basundhara</h2>
         <p><strong>Cozmo Cafe & Bistro</strong> is a premier European and French-inspired culinary destination situated at Rupayan Shopping Square, Basundhara R/A.</p>
         <p>Our space is crafted to feel like a portal into medieval British aristocracy fused with Parisian cafe culture. Featuring a signature indoor fireplace, magnificent life-sized thematic paintings, and ambient low-light jazz vibes, every corner is curated to be your cozy sanctuary and Dhaka's most Instagram-worthy retreat.</p>
         <div class="stats-row">
@@ -104,30 +107,48 @@
         <p>A glimpse into our medieval European decor, cozy fireplace, and Paris-inspired corners.</p>
       </div>
 
-      <div class="gallery-grid">
-        <div class="gallery-item">
+      <div class="gallery-bento">
+        <div class="gallery-card bento-hero">
           <img src="cozmo_resources/cozmo_2.jpg" alt="Cozmo Cafe Life-sized Painting and Aristocratic Interior" loading="lazy">
-          <div class="gallery-caption">Thematic Renaissance Paintings</div>
+          <div class="gallery-caption">
+            <span class="caption-tag">Masterpiece</span>
+            <h3>Thematic Renaissance Paintings</h3>
+          </div>
         </div>
-        <div class="gallery-item">
-          <img src="cozmo_resources/cozmo_3.jpg" alt="Warm Cozy Seating at Cozmo Cafe" loading="lazy">
-          <div class="gallery-caption">Intimate Dining Corners</div>
-        </div>
-        <div class="gallery-item">
-          <img src="cozmo_resources/cozmo_4.jpg" alt="European Bistro Atmosphere" loading="lazy">
-          <div class="gallery-caption">Parisian Bistro Vibe</div>
-        </div>
-        <div class="gallery-item">
-          <img src="cozmo_resources/cozmo_5.jpg" alt="Leather Chesterfield Sofas and Aristocratic Art" loading="lazy">
-          <div class="gallery-caption">Royal British Aesthetic</div>
-        </div>
-        <div class="gallery-item">
+        <div class="gallery-card bento-wide">
           <img src="cozmo_resources/cozmo_6.jpg" alt="Indoor Fireplace & Ambient Lighting" loading="lazy">
-          <div class="gallery-caption">Signature Fireplace Warmth</div>
+          <div class="gallery-caption">
+            <span class="caption-tag">Signature</span>
+            <h3>Signature Fireplace Warmth</h3>
+          </div>
         </div>
-        <div class="gallery-item">
+        <div class="gallery-card">
+          <img src="cozmo_resources/cozmo_3.jpg" alt="Warm Cozy Seating at Cozmo Cafe" loading="lazy">
+          <div class="gallery-caption">
+            <span class="caption-tag">Intimate</span>
+            <h3>Candlelit Dining Corners</h3>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="cozmo_resources/cozmo_4.jpg" alt="European Bistro Atmosphere" loading="lazy">
+          <div class="gallery-caption">
+            <span class="caption-tag">Parisian</span>
+            <h3>Bistro Atmosphere</h3>
+          </div>
+        </div>
+        <div class="gallery-card">
+          <img src="cozmo_resources/cozmo_5.jpg" alt="Leather Chesterfield Sofas and Aristocratic Art" loading="lazy">
+          <div class="gallery-caption">
+            <span class="caption-tag">Heritage</span>
+            <h3>Royal British Aesthetic</h3>
+          </div>
+        </div>
+        <div class="gallery-card">
           <img src="cozmo_resources/cozmo_7.jpg" alt="Cozmo Cafe & Bistro Seating & Decor" loading="lazy">
-          <div class="gallery-caption">Cozy Sanctuary in Basundhara</div>
+          <div class="gallery-caption">
+            <span class="caption-tag">Sanctuary</span>
+            <h3>Cozy Retreat in Basundhara</h3>
+          </div>
         </div>
       </div>
     </div>
@@ -138,40 +159,64 @@
     <div class="container">
       <div class="section-header text-center">
         <span class="section-tag">Ambiance & Features</span>
-        <h2>Curated For Unforgettable Moments</h2>
+        <h2>Curated for Unforgettable Moments</h2>
         <p>Designed with elegance, comfort, and inclusivity at every corner.</p>
       </div>
 
       <div class="amenities-grid">
         <div class="amenity-card">
-          <span class="amenity-icon">🔥</span>
+          <div class="amenity-icon-wrap">
+            <svg class="amenity-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+            </svg>
+          </div>
           <h3>Indoor Fireplace</h3>
-          <p>Signature warm fireplace setup evoking European winter bistros and royal estates.</p>
+          <p>Signature warm hearth evoking European winter bistros and royal estates.</p>
         </div>
         <div class="amenity-card">
-          <span class="amenity-icon">🎨</span>
-          <h3>Life-Sized Paintings</h3>
-          <p>Thematic classical artwork creating a dramatic, romantic, and highly photographic backdrop.</p>
+          <div class="amenity-icon-wrap">
+            <svg class="amenity-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="3" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+            </svg>
+          </div>
+          <h3>Life-Sized Artworks</h3>
+          <p>Thematic classical artwork creating a dramatic, romantic, and photographic backdrop.</p>
         </div>
         <div class="amenity-card">
-          <span class="amenity-icon">🎷</span>
-          <h3>Live Music & Match Screenings</h3>
-          <p>Regular acoustic sessions and big-screen broadcasts for football & cricket tournaments.</p>
+          <div class="amenity-icon-wrap">
+            <svg class="amenity-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+            </svg>
+          </div>
+          <h3>Live Music & Screenings</h3>
+          <p>Acoustic melodies and big-screen broadcasts for premium sports tournaments.</p>
         </div>
         <div class="amenity-card">
-          <span class="amenity-icon">🚪</span>
+          <div class="amenity-icon-wrap">
+            <svg class="amenity-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/>
+            </svg>
+          </div>
           <h3>Private Dining Rooms</h3>
-          <p>Dedicated VIP spaces for private celebrations, corporate dinners, or intimate family events.</p>
+          <p>Dedicated VIP spaces for celebrations, corporate lunches, or intimate family dinners.</p>
         </div>
         <div class="amenity-card">
-          <span class="amenity-icon">♿</span>
+          <div class="amenity-icon-wrap">
+            <svg class="amenity-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="4" r="2"/><path d="M10 9h4"/><path d="m10 9-1.5 8.5a4 4 0 1 0 7 0L14 9"/>
+            </svg>
+          </div>
           <h3>Full Accessibility</h3>
-          <p>Wheelchair-accessible entrance, spacious aisles, and dedicated accessible facilities.</p>
+          <p>Wheelchair-accessible entrance, spacious aisles, and dedicated ground-level facilities.</p>
         </div>
         <div class="amenity-card">
-          <span class="amenity-icon">🥗</span>
+          <div class="amenity-icon-wrap">
+            <svg class="amenity-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+            </svg>
+          </div>
           <h3>Dietary & Vegan Friendly</h3>
-          <p>Full vegetarian, vegan, and healthy diet creations tailored by our executive chef.</p>
+          <p>Vegetarian, vegan, and healthy diet creations tailored freshly by our executive chef.</p>
         </div>
       </div>
     </div>
@@ -312,6 +357,14 @@
       </div>
     </div>
   </footer>
+
+  <!-- Floating Mobile Reserve FAB -->
+  <aside class="mobile-quick-reserve">
+    <a href="#reserve" class="btn btn-primary quick-reserve-btn">
+      <span>Reserve Table</span>
+      <span class="quick-reserve-arrow">→</span>
+    </a>
+  </aside>
 
   <script src="app.js"></script>
 </body>

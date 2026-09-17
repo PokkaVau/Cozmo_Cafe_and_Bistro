@@ -230,6 +230,27 @@ function setupUI() {
   if (closeBanner && promoBanner) {
     closeBanner.addEventListener('click', () => promoBanner.style.display = 'none');
   }
+
+  setupScrollSpy();
+}
+
+function setupScrollSpy() {
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.main-nav a[href^="#"]:not(.btn)');
+  if (!sections.length || !navLinks.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.getAttribute('id');
+        navLinks.forEach(link => {
+          link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+        });
+      }
+    });
+  }, { rootMargin: '-20% 0px -60% 0px' });
+
+  sections.forEach(sec => observer.observe(sec));
 }
 
 document.addEventListener('DOMContentLoaded', () => {
